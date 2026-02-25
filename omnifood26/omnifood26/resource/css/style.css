@@ -36,4 +36,85 @@ header{
 h1{
     margin: 0;
     color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 4px;
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 90%;
+    margin-top: 15px;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+.btn-full:link,
+.btn-full:visited{
+    background-color: #e67e22;
+    color: #fff;
+    border: 1px solid #e67e22;
+    margin-right: 10px;
+}
+
+
+.btn-border:link,
+.btn-border:visited{
+    background-color: transparent;
+    color: #e67e22;
+    border: 1px solid #e67e22;
+}
+
+.btn-full{
+    background-color: #e67e22;
+    color: #fff;
+    border: 1px solid #e67e22;
+}
+.btn-border{
+    color: #ffffff;
+    border: 1px solid #e67e22;
+
+}
+
+.btn-full:hover,
+.btn-full:active{
+    background-color: #542700;
+    color: #ffffff;
+    border: 1px solid #542700;
+}
+
+.btn-border:hover,
+.btn-border:active{
+    background-color: #542700;
+    color: #fff;
+    border: 1px solid #542700;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.nav img{
+    height: 100px;
+    margin-left: 150px;
+    margin-right: 250px;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #e67e22;
+    text-transform: uppercase;
+    font-size: 90%;
+    margin-left: 25px;
 }
