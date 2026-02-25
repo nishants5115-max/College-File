@@ -95,26 +95,24 @@ h1{
     border: 1px solid #542700;
 }
 
-.nav{
-    display: flex;
-    align-items: center;
-    padding: 30px 0;
-}
-.nav img{
+.logo{
     height: 100px;
-    margin-left: 150px;
-    margin-right: 250px;
+    float: left;
 }
 
-.nav ul{
+.main-nav{
+    float : right;
     list-style: none;
-    display: flex;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 35px;
 }
 
-.nav ul li a{
+.main-nav li a{
     text-decoration: none;
     color: #e67e22;
     text-transform: uppercase;
     font-size: 90%;
-    margin-left: 25px;
 }
